@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <test name="Test(failed)" parallel="methods">
+    <classes>
+      <class name="userlevelthree.edptest">
+        <methods>
+          <include name="setDriver"/>
+          <include name="varifyIRID"/>
+          <include name="getName"/>
+          <include name="searchIRID"/>
+          <include name="navigateChequeList"/>
+        </methods>
+      </class> <!-- userlevelthree.edptest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
